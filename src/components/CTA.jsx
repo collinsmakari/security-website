@@ -13,7 +13,7 @@ function CTA() {
 
       <Link
         to="/contact"
-        className="inline-block mt-6 bg-orange-600 text-white px-6 py-3 rounded-xl"
+        className="inline-block mt-6 bg-orange-600 text-white px-6 py-3 rounded-xl transition duration-300 shadow-lg hover:scale-105"
       >
         Get Started
       </Link>

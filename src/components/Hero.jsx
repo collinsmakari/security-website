@@ -16,14 +16,14 @@ function Hero() {
         <div className="mt-8 flex justify-center gap-4 flex-wrap">
           <Link
             to="/services"
-            className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-xl font-semibold"
+            className="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-xl font-semibold transition duration-300 shadow-lg hover:scale-105"
           >
             Our Services
           </Link>
 
           <Link
             to="/contact"
-            className="border border-orange-500 px-6 py-3 rounded-xl hover:bg-orange-500 text-slate-900 hover:text-white transition duration-300 font-semibold"
+            className="border border-orange-500 px-6 py-3 rounded-xl hover:bg-orange-500 text-slate-900 hover:text-white transition duration-300 font-semibold shadow-lg hover:scale-105"
           >
             Contact Us
           </Link>
