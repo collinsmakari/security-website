@@ -1,5 +1,7 @@
 // src/components/Footer.jsx
 
+import { Link } from "react-router-dom";
+
 import {
   FaFacebookF,
   FaInstagram,
@@ -19,9 +21,10 @@ export default function Footer() {
             </h2>
 
             <p className="text-slate-400 leading-relaxed">
-              Professional CCTV surveillance, intruder alarm systems, biometric
-              access control,fire systems, electric fencing, automatic gates and
-              smart security solutions for homes and businesses.
+              Professional CCTV surveillance, intruder alarm systems,
+              biometric access control, fire systems, electric fencing,
+              automatic gates and smart security solutions for homes
+              and businesses.
             </p>
           </div>
 
@@ -33,30 +36,39 @@ export default function Footer() {
 
             <ul className="space-y-3 text-slate-400">
               <li>
-                <a href="/" className="hover:text-orange-400 transition">
+                <Link
+                  to="/"
+                  className="hover:text-orange-400 transition duration-300"
+                >
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/about" className="hover:text-orange-400 transition">
+                <Link
+                  to="/about"
+                  className="hover:text-orange-400 transition duration-300"
+                >
                   About
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/services"
-                  className="hover:text-orange-400 transition"
+                <Link
+                  to="/services"
+                  className="hover:text-orange-400 transition duration-300"
                 >
                   Services
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a href="/contact" className="hover:text-orange-400 transition">
+                <Link
+                  to="/contact"
+                  className="hover:text-orange-400 transition duration-300"
+                >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -101,7 +113,7 @@ export default function Footer() {
 
         {/* Bottom Footer */}
         <div className="border-t border-slate-800 mt-10 pt-6 text-center text-slate-500 text-sm">
-          © {new Date().getFullYear()} KenpaltKenya. All rights reserved.
+          © {new Date().getFullYear()} Kenpalt Kenya. All rights reserved.
         </div>
       </div>
     </footer>
