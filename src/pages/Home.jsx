@@ -3,9 +3,9 @@ import Hero from "../components/Hero";
 import CTA from "../components/CTA";
 import { Link } from "react-router-dom";
 
-import cctvImg from "../assets/cam_1.jpg";
-import accessImg from "../assets/fire 1.jpg";
-import alarmImg from "../assets/cam 2.jpg";
+import cctvImg from "../assets/cam 2.jpg";
+import accessImg from "../assets/access control.jpg";
+import alarmImg from "../assets/intruder 2.jpg";
 
 function Home() {
   const services = [
@@ -46,13 +46,13 @@ function Home() {
       <Hero />
 
       {/* Services Section */}
-      <section className="py-24 bg-slate-950 text-white">
+      <section className="py-24 bg-slate-500 text-white">
         <div className="max-w-7xl mx-auto px-6">
           {/* Heading */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold">Our Services</h2>
 
-            <p className="text-slate-400 mt-4 text-lg">
+            <p className="text-black mt-4 text-lg">
               Reliable security solutions for homes, businesses and
               institutions.
             </p>
