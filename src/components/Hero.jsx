@@ -15,7 +15,7 @@ function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
-          Advanced Security Systems For Homes & Businesses
+          Advanced Security Systems For Homes, Businesses & Institutions
         </h1>
 
         <p className="text-slate-300 mt-6 text-lg md:text-xl">

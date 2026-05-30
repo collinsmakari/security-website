@@ -73,7 +73,7 @@ function Services() {
       image: networkImg,
     },
     {
-      title: "X-ray Baggage scanners and Walkthrough Metal Detactors",
+      title: "X-ray Baggage scanners and Walkthrough Metal Detectors",
       description:
         "X-ray baggage scanners and walkthrough metal detectors provide fast and reliable security screening solutions. They help detect prohibited items, weapons, and concealed metallic objects with accuracy and efficiency.",
       icon: <ScanSearch size={50} className="text-orange-500" />,
