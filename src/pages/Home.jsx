@@ -46,11 +46,13 @@ function Home() {
       <Hero />
 
       {/* Services Section */}
-      <section className="py-24 bg-slate-500 text-white">
+      <section className="py-24 bg-white text-white">
         <div className="max-w-7xl mx-auto px-6">
           {/* Heading */}
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold">Our Services</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-orange-500">
+              Our Services
+            </h2>
 
             <p className="text-black mt-4 text-lg">
               Reliable security solutions for homes, businesses and
